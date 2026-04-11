@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,600;1,600&display=swap');
+*{
+     font-family: "Work Sans", sans-serif; ;
+}
+html{
+    background-color: grey;
+}
+.main{
+    width: 80%;
+    height:1100px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+header{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    font-size: 20px;
+   
+    
+}
+h1{
+    padding-top: 15px;
+    padding-left: 18px;
+
+}
+h2{
+    /* padding-top: 15px; */
+    padding-left: 20px;
+    font-size: 30px;
+}
+.required{
+    padding-left: 20px;
+    color: red;
+}
+.top{
+  background-color: rgb(205, 205, 205);
+text-indent: 10px;
+}
+section{
+    background-color: rgb(242, 242, 242);
+    width:95%;
+    margin:auto;
+   
+}
+
+.form {
+    padding-left: 220px;
+
+}
+
+.form label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.form input {
+    width: 350px;
+    padding: 5px;
+    margin:5px;
+    
+}
+.symbol{
+    color:red ;
+    font-size: small;
+    
+}
