@@ -30,58 +30,187 @@
         <div class="form">
         <form >
                 <label for="Email">
-                    Email<span class="symbol"> ^</span>
+                    Email<span class="symbol"> *</span>
                 </label>
                 <input type="text" required id="Email">
                 <br>
                 <label for="Password">
-                    Password<span class="symbol"> ^</span>
+                    Password<span class="symbol"> *</span>
                 </label>
-                <input type="text" required id="Password">
+                <input type="password" required id="Password">
                   <br>
                 <label for="rePassword">
-                    Retype Password<span class="symbol"> ^</span>
+                    Retype Password<span class="symbol"> *</span>
                 </label>
-                <input type="text" required id="rePassword">
+                <input type="password" required id="rePassword">
                 <br>
                 <label for="fname">
-                    First name<span class="symbol"> ^</span>
+                    First name<span class="symbol"> *</span>
                 </label>
                 <input type="text" required id="fname">
                 <br>
                 <label for="lname">
-                    Last name<span class="symbol"> ^</span>
+                    Last name<span class="symbol"> *</span>
                 </label>
                 <input type="text" required id="lname">
                 <br>
                 <label for="number">
-                   Phone number<span class="symbol"> ^</span>
+                   Phone number<span class="symbol"> *</span>
                 </label>
-                <input type="number" required id="number">
+                <input type="number" placeholder="999-999-9999" id="number">
                 <br>
                 <label for="address">
-                    Addressd<span class="symbol"> ^</span>
+                    Addressd<span class="symbol"> *</span>
                 </label>
                 <input type="text" required id="address">
                 <br>
                 <label for="city">
-                    City<span class="symbol"> ^</span>
+                    City<span class="symbol">*</span>
                 </label>
                 <input type="text" required id="city">
                 <br>
-                <label for="province">
-                    Province<span class="symbol"> ^</span>
+                
+                <label>
+                    Province <span class="symbol">*</span>
                 </label>
-                <input type="" required id="province">
+ 
+                <select>
+                    <option>Alberta</option>
+                    <option>Ontario</option>
+                    <option>Quebec</option>
+                    <option>British Columbia</option>
+                </select>
+                <br>
+                <label for="address">
+                    Address<span class="symbol"> *</span>
+                </label>
+                <input type="text" required id="lname">
+               
             </form>
         </div>
        </section>
+              <section >
+        <div class="top ">
+            <h3>
+                Education
+            </h3>
+    
+          
+        </div>
+        <div class="form">
+        <form >
+                <label for="school">
+                    School<span class="symbol"> *</span>
+                </label>
+                <input type="text" required id="school">
+                <br>
+                <label for="program">
+                    Program<span class="symbol"> *</span>
+                </label>
+                <input type="text" required id="Program">
+                  <br>
+           
+                <label>
+                    Education<span class="symbol">*</span>
+                </label>
+ 
+                <select>
+                        <option>-select-</option>
+                        <option>High School</option>
+                        <option>Bachelor</option>
+                        <option>Master</option>
+                        <option>PhD</option>
+
+                </select>
+                <br>
+              
+
+
+          <fieldset class="status-box">
+                <legend>Education Status</legend>
+
+                <label>
+                    <input type="radio" name="status"> Graduated
+                </label>
+
+                <label>
+                    <input type="radio" name="status"> Current Enrolled
+                </label>
+
+                <label>
+                    <input type="radio" name="status"> Didn't Graduate
+                </label>
+            </fieldset>
+                <br>
+                <label for="date">
+                    Graduation Date<span class="symbol"> *</span>
+                </label>
+                <input type="date" required id="date">
+
+               
+            </form>
+        </div>
+       </section>
+
         <section>
-        
+                <div class="top ">
+            <h3>
+                Work Experience
+            </h3>
+    
+          
+        </div>
+        <div class="form">
+        <form >
+                <label for="employer">
+                    Employer<span class="symbol"> *</span>
+                </label>
+                <input type="text" required id="employer">
+                <br>
+                <label for="jtitle">
+                    Job Title<span class="symbol"> *</span>
+                </label>
+                <input type="text" required id="jtitle">
+                <br>
+                 <label for="jduty">
+                    Job Duty<span class="symbol"> *</span>
+                </label>
+                <textarea  id="jduty" rows="6" cols="45"></textarea>
+                <br>
+                <label for="workyear">
+                    Worked Year<span class="symbol"> *</span>
+                </label>
+                <input type="year" required id="workyear">
+                <br>
+            </form>
+        </div>
+
        </section>
         <section>
-        
+                <div class="top ">
+            <h3>
+                Attachments
+            </h3>
+    
+          
+        </div>
+        <div class="form">
+        <form >
+                <label for="file">
+                    Attachment<span class="symbol"> *</span>
+                </label>
+                <input type="file" required id="file">
+                <br>
+     
+            </form>
+        </div>
+
+
        </section>
+       <div class="buttons">
+       <button>Reset</button>
+       <button>Apply</button>
+       </div>
     </div>
 </body>
 </html>

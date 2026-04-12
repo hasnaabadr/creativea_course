@@ -7,8 +7,9 @@ html{
     background-color: grey;
 }
 .main{
+
     width: 80%;
-    height:1100px;
+  
     background-color: rgb(255, 255, 255);
     margin: auto;
 }
@@ -58,14 +59,62 @@ section{
     text-align: right;
 }
 
-.form input {
+.form input  {
     width: 350px;
     padding: 5px;
     margin:5px;
     
 }
+.form select{
+       width: 360px;
+    padding: 5px;
+    margin:5px;
+}
 .symbol{
     color:red ;
     font-size: small;
     
+    
+}
+.status-box {
+   width: 339px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 159px;
+}
+.status-box label {
+    display: block;
+    width: auto;
+    text-align: left;
+    font-weight: normal;
+    margin: 5px 0;
+}
+.status-box input {
+    width: auto;       
+    margin-right: 8px;
+}
+.form textarea {
+    display: inline-block;
+    vertical-align: top;   
+    margin-left: 5px;
+    /* width: 350px; */
+}
+button{
+    background-color: red;
+    color: white;
+    border-color: red;
+    border-radius: 5px;
+    margin: 8px;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+  
+}
+
+
+.buttons{
+    margin:30px;
+    text-align: center;
+    padding-bottom: 30px;
 }
