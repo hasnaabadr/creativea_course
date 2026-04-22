@@ -181,8 +181,9 @@ ul{
     background-color: var(--main-color);
     height: 1072px;
 
-    padding: 50px;
+    padding: 5% 130px;
 }
+
 .about .about-text{
     width: 823px;
   
@@ -195,15 +196,221 @@ ul{
     color: var(--secondary-color);
 }
 .about .about-text h2 span{
-    font-weight: 600;
-    font-size: 67px;
-    line-height: 72px;
+    
     color: var(--primary-color);
 }
 .about .about-text p{
-    font-weight: 400;
+    font-weight: 500;
     font-family: "Plus Jakarta Sans", sans-serif;
     color: #525252;
     font-size: 16px;
     line-height: 24px;
+    padding-top: 25px;
+}
+.about-sub-container {
+    padding: 5% 0;
+}
+.about-cards{
+      display: inline-block;
+      vertical-align: top;
+}
+.about-card{
+    width: 570px;
+    padding: 40px 24px;
+    border-radius: 16px;
+    margin:24px 0px;
+    box-shadow: 18px 15px 35px 0px rgba(0, 0, 0, 0.09);
+  
+}
+
+.about-card h6{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: var(--secondary-color);
+    padding: 25px 0px;
+}
+.about-card h6 span{
+     color: var(--primary-color);
+}
+.about-card p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color:#525252;
+    
+}
+.about-image{
+    width: 598px;
+    height: 628px;
+    display: inline-block;
+    margin:24px 0px 24px 140px;
+    vertical-align: top;
+   
+}
+.about-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    
+}
+
+.choose-container{
+    padding: 5% 130px;
+
+}
+.choose-img{
+    width: 538px;
+    height: 560px;
+    display: inline-block;
+    margin-right: 140px;
+    vertical-align: top;
+
+}
+.choose-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.choose-content{
+    display: inline-block;
+    vertical-align: top;
+}
+.choose-text{
+    width: 610px;
+}
+.choose-text h3{
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 72px;
+    letter-spacing: 0%;
+    color:var(--secondary-color);
+    padding-bottom: 40px;
+}
+.choose-text h3 span{
+   color: var(--primary-color);
+}
+.choose-text p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #525252;
+    padding-bottom: 40px;
+
+}
+.choose-check div{
+    padding-bottom: 40px;
+}
+.choose-check svg{
+  vertical-align: middle;
+    
+    margin-right: 24px;
+}
+.choose-check p{
+    display: inline-block;
+    
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    color: var(--secondary-color);
+    vertical-align: middle;
+
+}
+
+.services .container{
+    background-color: var(--main-color);
+    
+     
+    padding: 5% 130px;
+   
+}
+
+.services .services-text{
+    width: 729px;
+  
+}
+
+.services .services-text h2{
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 72px;
+    color: var(--secondary-color);
+}
+.services .services-text h2 span{
+    color: var(--primary-color);
+}
+.services .services-text p{
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #525252;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 25px;
+}
+.service-card{
+    padding:40px 24px;
+    margin-top:32px;
+    margin-right:32px;
+    width:400px;
+    border-radius: 16px;
+    box-shadow: 18px 15px 35px 0px rgba(0, 0, 0, 0.09);
+    display: inline-block;
+    background-color: var(--main-color);
+}
+
+.service-card-text h6{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    margin:16px 0;
+    color: var(--secondary-color);
+}
+.service-card-text h6 span{
+    color: var(--primary-color);
+}
+.service-card-text p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #525252;
+}
+.active-card {
+    background-color: var(--primary-color);
+    color: var(--main-color);
+}
+.active-card .service-card-text h6,.active-card .service-card-text p{
+     color: var(--main-color);
+}
+.pricing-container{
+    background-color: var(--main-color);
+    padding: 5% 130px;
+}
+.pricing-text{
+    
+    width: 729px;
+    text-align: center;
+    margin: auto;
+}
+.pricing-text h2{
+    font-weight: 600;
+    font-size: 67px;
+    line-height:72px;
+    color: var(--secondary-color);
+    margin-bottom: 24px;
+}
+.pricing-text h2 span{
+    color: var(--primary-color);
+}
+.pricing-text p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #525252;
 }

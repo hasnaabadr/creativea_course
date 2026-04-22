@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+:root{
+    --main-color:#3563E9;
+    --primary-color:#C3D4E966;
+    --secondary-color:#596780;
+    --text-color:#E0E9F4;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.w-15{
+ width: 15%;
+}
+.w-10{
+ width: 10%;
+}
+.w-60{
+ width: 60%;
+}
+.display-flex{
+  display: flex;
+
+}
+.w-80{
+  width: 80%;
+}
+
+nav{
+     border: 1px solid #C3D4E966;
+     height: 124px;
+    
+}
+nav .container{
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    padding:0  2rem 0 4rem;
+}
+
+h1{
+    width: 148px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: -3%;
+    color: var(--main-color);
+}
+/* .search{
+    
+} */
+.search button{
+    width: 492px;
+    height: 44px;
+    background-color: white;
+    width: 492px;
+   align-items: center;
+   border-radius: 70px;
+   border: 1px solid #C3D4E966
+}
+.search button p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -2%;
+    color: var(--secondary-color);
+}
+.icons {
+    justify-content: space-between;
+}
+.icons .icon{
+    width: 44px;
+    height: 44px;
+}
+.icons .icon button{
+    background-color: #FFFFFF;
+    border: none;
+}
+.icons .icon img{
+   border-radius: 90px;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+main{
+    background-color: #F6F7F9;
+}
+.container{
+    padding:  1rem 2.5rem;
+}
+.ads{
+    justify-content: space-between;
+}
+ .ad{
+    width: 640px;
+    height: 360px;
+    border-radius: 10px;
+    padding: 2rem;
+}
+.ad .ad-text h6{
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 150%;
+   letter-spacing: -3%;
+   color: white;
+   width: 272px;
+   height: 96px;
+}
+.ad .ad-text p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -2%;
+    width: 284px;
+    height:48px ;
+    color: white;
+    margin: 12px 0;
+    
+}
+
+.ad button{
+    
+    color: white;
+    width: 120px;
+    height: 44px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -2%;
+    margin-top: 8px;
+
+}
+
+
+.ad1{
+    background-color: #54A6FF;
+    background-image: url(../images/ad1.png);
+}
+.ad1 button{
+    background-color: var(--main-color);
+}
+.ad2{
+    background-color: var(--main-color);
+    background-image: url(../images/ad2.png);
+}
+.ad2 button{
+    background-color:#54A6FF;
+}
+
+.selector{
+    width: 582px;
+    height: 132px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 20px 40px;
+}
+.select-type{
+    margin-bottom: 8px;
+}
+.selector .select-type p,.selector .select-type svg{
+    display: inline-block;
+}
+.selector .select-type p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -2%;
+    margin-left: 8px;
+}
+.select-fields{
+    justify-content: space-between;
+}
+.select-fields .field p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -2%;
+    margin-bottom: 8px;
+}
+.select-fields select{
+    
+    appearance: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    color:var(--text-color);
+    margin-right: 22px;
+}
+.input{
+    display: flex;
+    align-items: center;
+
+}
+
+.select-fields select option{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: -2%;
+
+   
+}
+.divider{
+    height: 48px;
+    width: 0px;
+    border: 1px solid #C3D4E966;
+}
+.selectors .switch {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+
+    
+}
+.selectors .switch button{
+      width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+  background-color:var(--main-color) ;
+}
+.selectors{
+    justify-content: space-between;
+    align-items: center;
+}
+.content .text{
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content .text p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:var(--text-color)
+}
+.content .text .view-all{
+    color: var(--main-color);
+}
